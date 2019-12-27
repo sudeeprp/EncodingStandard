@@ -7,8 +7,8 @@ content_regex =\
 
 good_example_object =\
     {
-      "type": "text",
-      "content": "Work is superior."
+        "type": "text",
+        "content": "Work is superior."
     }
 
 

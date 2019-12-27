@@ -6,8 +6,8 @@ content_regex =\
 
 good_example_object =\
     {
-      "id": "DEF123",
-      "any other stuff": "can be here"
+        "id": "DEF123",
+        "any other stuff": "can be here"
     }
 
 

@@ -1,16 +1,16 @@
 
 content_regex =\
     {
-      "type": "phrase",
-      "destination": '[^"]*',
-      "content": '[^"]*'
+        "type": "phrase",
+        "destination": '[^"]*',
+        "content": '[^"]*'
     }
 
 good_example_object =\
     {
-      "type": "phrase",
-      "destination": "karmayOga_a_defn",
-      "content": "work without attachment"
+        "type": "phrase",
+        "destination": "karmayOga_a_defn",
+        "content": "work without attachment"
     }
 
 

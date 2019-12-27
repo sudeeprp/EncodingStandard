@@ -7,7 +7,7 @@ def match(content_regex, good_example_object):
     for key in content_regex:
         if key not in good_example_object or\
                 not re.match(content_regex[key], str(good_example_object[key])):
-            print(f'''--Regex not matched: 
+            print(f'''--Regex not matched:
                     Expected:\n{json.dumps(content_regex)}
                     Actual:\n{json.dumps(good_example_object)}''')
             return False
